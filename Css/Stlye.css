@@ -1,0 +1,96 @@
+body{
+    font: 15px/1.5 Arial,Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*glodal*/
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 38px;
+    background-color: #e8491d;
+    border: 0;
+    border-radius: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffff;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav {
+    float:right;
+    margin-top: 10px;
+}
+
+.highlight{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #13044e;
+    font-weight: bold;
+}
+ #mewsletter{
+    background: #3e4c55;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+footer {
+    background-color: #35424a;
+    padding: 30px;
+    margin: auto;
+}
